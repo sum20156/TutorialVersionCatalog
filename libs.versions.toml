@@ -1,0 +1,6 @@
+[versions]
+retrofitCore="2.9.0"
+
+
+[libraries]
+retrofit-lib = {module="com.squareup.retrofit2:retrofit",version.ref="retrofitCore"}

@@ -21,7 +21,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/Adaptavant/Android-Version-Catalogs")
+            url = uri("https://maven.pkg.github.com/sum20156/TutorialVersionCatalog")
             credentials {
                 username = System.getenv("USER_GITHUB_ID") ?: System.getProperty("USER_GITHUB_ID")
                 password = System.getenv("USER_GITHUB_ACCESS_TOKEN")
